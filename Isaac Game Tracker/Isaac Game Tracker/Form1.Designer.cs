@@ -42,11 +42,7 @@
             this.lbl_MostWinsText = new System.Windows.Forms.Label();
             this.lbl_FewestWins = new System.Windows.Forms.Label();
             this.lbl_FewestWinsText = new System.Windows.Forms.Label();
-            this.lbl_LongestStreak = new System.Windows.Forms.Label();
-            this.lbl_LongestStreakNumber = new System.Windows.Forms.Label();
             this.form1BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.lbl_CurrentStreak = new System.Windows.Forms.Label();
-            this.lbl_CurrentStreakNumber = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Record)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).BeginInit();
             this.SuspendLayout();
@@ -172,57 +168,15 @@
             this.lbl_FewestWinsText.Text = "label1";
             this.lbl_FewestWinsText.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // lbl_LongestStreak
-            // 
-            this.lbl_LongestStreak.AutoSize = true;
-            this.lbl_LongestStreak.Location = new System.Drawing.Point(331, 148);
-            this.lbl_LongestStreak.Name = "lbl_LongestStreak";
-            this.lbl_LongestStreak.Size = new System.Drawing.Size(79, 13);
-            this.lbl_LongestStreak.TabIndex = 13;
-            this.lbl_LongestStreak.Text = "Longest Streak";
-            // 
-            // lbl_LongestStreakNumber
-            // 
-            this.lbl_LongestStreakNumber.AutoSize = true;
-            this.lbl_LongestStreakNumber.Location = new System.Drawing.Point(384, 163);
-            this.lbl_LongestStreakNumber.Name = "lbl_LongestStreakNumber";
-            this.lbl_LongestStreakNumber.Size = new System.Drawing.Size(35, 13);
-            this.lbl_LongestStreakNumber.TabIndex = 14;
-            this.lbl_LongestStreakNumber.Text = "label1";
-            this.lbl_LongestStreakNumber.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // form1BindingSource
             // 
             this.form1BindingSource.DataSource = typeof(IGGnis_Game_Tracker.Form1);
-            // 
-            // lbl_CurrentStreak
-            // 
-            this.lbl_CurrentStreak.AutoSize = true;
-            this.lbl_CurrentStreak.Location = new System.Drawing.Point(334, 184);
-            this.lbl_CurrentStreak.Name = "lbl_CurrentStreak";
-            this.lbl_CurrentStreak.Size = new System.Drawing.Size(75, 13);
-            this.lbl_CurrentStreak.TabIndex = 15;
-            this.lbl_CurrentStreak.Text = "Current Streak";
-            // 
-            // lbl_CurrentStreakNumber
-            // 
-            this.lbl_CurrentStreakNumber.AutoSize = true;
-            this.lbl_CurrentStreakNumber.Location = new System.Drawing.Point(384, 202);
-            this.lbl_CurrentStreakNumber.Name = "lbl_CurrentStreakNumber";
-            this.lbl_CurrentStreakNumber.Size = new System.Drawing.Size(35, 13);
-            this.lbl_CurrentStreakNumber.TabIndex = 16;
-            this.lbl_CurrentStreakNumber.Text = "label1";
-            this.lbl_CurrentStreakNumber.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(458, 265);
-            this.Controls.Add(this.lbl_CurrentStreakNumber);
-            this.Controls.Add(this.lbl_CurrentStreak);
-            this.Controls.Add(this.lbl_LongestStreakNumber);
-            this.Controls.Add(this.lbl_LongestStreak);
             this.Controls.Add(this.lbl_FewestWinsText);
             this.Controls.Add(this.lbl_FewestWins);
             this.Controls.Add(this.lbl_MostWinsText);
@@ -261,10 +215,6 @@
         private System.Windows.Forms.Label lbl_MostWinsText;
         private System.Windows.Forms.Label lbl_FewestWins;
         private System.Windows.Forms.Label lbl_FewestWinsText;
-        private System.Windows.Forms.Label lbl_LongestStreak;
-        private System.Windows.Forms.Label lbl_LongestStreakNumber;
-        private System.Windows.Forms.Label lbl_CurrentStreak;
-        private System.Windows.Forms.Label lbl_CurrentStreakNumber;
     }
 }
 

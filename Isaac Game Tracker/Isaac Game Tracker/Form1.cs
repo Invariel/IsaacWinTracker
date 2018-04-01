@@ -126,8 +126,6 @@ namespace IGGnis_Game_Tracker
 
             lbl_MostWinsText.Text = String.Format("{0} - {1}", characters[Array.IndexOf(wins, max)], max);
             lbl_FewestWinsText.Text = String.Format("{0} - {1}", characters[Array.IndexOf(wins, min)], min);
-            lbl_LongestStreakNumber.Text = longeststreak.ToString();
-            lbl_CurrentStreakNumber.Text = currentstreak.ToString();
         }
 
         private void AddGame (Game g, bool save)
