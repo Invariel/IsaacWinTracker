@@ -96,13 +96,15 @@ namespace IGGnis_Game_Tracker
                     if (streaks[characters.Length] > longeststreaks[characters.Length])
                     {
                         longeststreaks[characters.Length] = streaks[characters.Length];
-                        streaks[characters.Length] = 0;
                     }
+
                     if (streaks [characterNumber] > longeststreaks[characterNumber])
                     {
                         longeststreaks[characterNumber] = streaks[characterNumber];
-                        streaks[characterNumber] = 0;
                     }
+
+                    streaks[characters.Length] = 0;
+                    streaks[characterNumber] = 0;
                 }
             }
 
