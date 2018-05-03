@@ -176,7 +176,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(458, 265);
+            this.ClientSize = new System.Drawing.Size(431, 226);
             this.Controls.Add(this.lbl_FewestWinsText);
             this.Controls.Add(this.lbl_FewestWins);
             this.Controls.Add(this.lbl_MostWinsText);
@@ -191,7 +191,7 @@
             this.Controls.Add(this.btn_Victory);
             this.Controls.Add(this.cmb_Character);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Isaac Win Tracker";
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Record)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).EndInit();
             this.ResumeLayout(false);

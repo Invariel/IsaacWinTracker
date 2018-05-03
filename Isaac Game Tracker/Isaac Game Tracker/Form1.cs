@@ -13,7 +13,7 @@ namespace IGGnis_Game_Tracker
     public partial class Form1 : Form
     {
         BindingList<Game> games = new BindingList<Game> ();
-        static String[] characters = { "Isaac", "Magdalene", "Cain", "Judas", "???", "Eve", "Samson", "Azazel", "Lazarus", "Eden", "The Lost", "Lilith", "Keeper", "Apollyon" };
+        static String[] characters = { "Isaac", "Magdalene", "Cain", "Judas", "???", "Eve", "Samson", "Azazel", "Lazarus", "Eden", "The Lost", "Lilith", "Keeper", "Apollyon", "Forgotten" };
 
         int[] wins = new int[characters.Length];
         int[] streaks = new int[characters.Length + 1];
